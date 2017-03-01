@@ -1,22 +1,21 @@
 .nav {
   display: flex;
   justify-content: center;
-  height: 100px;
+  height: 150px;
 }
 
 #header{
   text-align: center;
 }
 .play, .stop {
-  font-size: 35pt;
+  font-size: 25pt;
   text-align: center;
 }
 .sound {
-  @include size(100px);
+  @include size(70px);
   background-color: blue;
   margin: 10px;
   border-radius: 20px;
-
   margin: 20px;
   border: 1px solid white;
     background: -webkit-repeating-linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0) 12px), -webkit-linear-gradient(red, yellow);

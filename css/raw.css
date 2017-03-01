@@ -12,19 +12,16 @@ body {
 
 h1 {
   text-align: center;
-  padding-right: 10px;
-  padding-left: 10px; }
+  font-size: 1.0em; }
 
 h2 {
-  padding-left: 50px;
-  margin-bottom: 150px;
   text-align: center; }
 
 em {
   color: #FF69B4; }
 
 .paramname {
-  margin: 30px;
+  margin: 5px;
   letter-spacing: 0.1em; }
 
 .lfo-waveforms {
@@ -32,16 +29,17 @@ em {
   flex-direction: column;
   align-self: flex-end;
   border: 1px solid white;
-  margin: 110px auto;
   padding: 5px;
   width: 50px;
   border-radius: 10px;
-  background: #222; }
+  background: #222;
+  position: relative;
+  left: 48px; }
 
 .waveforms {
   padding: 5px;
   position: relative;
-  left: 240px;
+  left: 20px;
   margin-top: 20px;
   margin-bottom: 20px;
   border: 1px solid white;
@@ -111,8 +109,8 @@ em {
 .knobs {
   display: flex;
   flex-direction: column;
-  min-width: 300px;
-  margin: 5px;
+  min-width: 150px;
+  margin: 20px;
   border: 2px solid white;
   border-radius: 20px;
   box-shadow: 0px 27px 15px -6px rgba(0, 0, 0, 0.4); }
@@ -120,32 +118,31 @@ em {
 .knob-wrap {
   border: .5px solid #FF69B4;
   position: relative;
-  left: 230px;
+  left: 25px;
   box-sizing: border-box;
   padding: 5px;
-  width: 65px;
-  height: 65px;
+  width: 100px;
+  height: 100px;
   border-radius: 50%;
   background: #222;
   box-shadow: inset 0 0 1px rgba(0, 0, 0, 0.6), 0 1px 0 rgba(255, 255, 255, 0.1); }
 
 .knob {
-  width: 50px;
-  height: 50px;
+  width: 80px;
+  height: 80px;
   background: #eee;
   border-radius: 50%;
   position: absolute;
-  top: -35px;
-  left: -35px;
+  top: -16px;
+  left: -16px;
   margin: 25px;
   display: inline-block;
   background: -webkit-repeating-linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0) 12px), -webkit-linear-gradient(#63D0FF, #45fe16);
   border: 5px solid #FF69B4; }
 
 .sliders {
-  min-width: 850px;
-  margin: 5px;
-  margin-top: 20px;
+  min-width: 520px;
+  margin: 20px;
   border: 2px solid white;
   border-radius: 20px;
   box-shadow: 0px 27px 15px -6px rgba(0, 0, 0, 0.4); }
@@ -159,7 +156,8 @@ em {
   border: 1px solid #FF69B4;
   padding: 1px;
   margin-right: 20px;
-  width: 35px;
+  margin-left: 10px;
+  width: 30px;
   height: 150px;
   border-radius: 10px;
   background: #222;
@@ -297,11 +295,11 @@ em {
 .container {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
   flex-wrap: wrap;
   align-content: center;
   align-items: center;
-  width: 90vw;
+  width: 95vw;
   margin: auto; }
 
 .osc1-bass, .osc1-digital, .osc2-bass, .osc2-digital, .freq-bass, .freq-digital, .res-bass, .res-digital, .amount-bass, .amount-digital, .rate-bass, .rate-digital {
@@ -311,16 +309,16 @@ em {
 
 .res-tail, .osc1-tail, .osc2-tail, .freq-tail, .rate-tail, .amount-tail {
   width: 15px;
-  height: 60px;
+  height: 40px;
   background: #eee;
   border-radius: 20px;
   position: absolute;
-  top: 50%;
-  left: 45%; }
+  top: 49%;
+  left: 43%; }
 
 .slider-AA, .slider-AD, .slider-AS, .slider-AR, .slider-FA, .slider-FD, .slider-FS, .slider-FR {
   height: 0px;
-  width: 30px;
+  width: 25px;
   border-radius: 5px;
   border: 1px solid #FF69B4;
   background: repeating-linear-gradient(-45deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0) 12px), linear-gradient(#63D0FF, #45fe16); }
@@ -328,18 +326,18 @@ em {
 .nav {
   display: flex;
   justify-content: center;
-  height: 100px; }
+  height: 150px; }
 
 #header {
   text-align: center; }
 
 .play, .stop {
-  font-size: 35pt;
+  font-size: 25pt;
   text-align: center; }
 
 .sound {
-  height: 100px;
-  width: 100px;
+  height: 70px;
+  width: 70px;
   background-color: blue;
   margin: 10px;
   border-radius: 20px;

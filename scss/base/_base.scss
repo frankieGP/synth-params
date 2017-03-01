@@ -18,13 +18,14 @@ body {
 // }
 h1 {
   text-align: center;
-  padding-right: 10px;
-  padding-left: 10px;
+  font-size: 1.0em;
+  // padding-right: 10px;
+  // padding-left: 10px;
 }
 
 h2 {
-  padding-left: 50px;
-  margin-bottom: 150px;
+  // padding-left: 50px;
+  // margin-bottom: 150px;
   text-align: center;
 }
 
@@ -33,7 +34,7 @@ em {
 }
 
 .paramname {
-  margin: 30px;
+  margin: 5px;
   letter-spacing: 0.1em;
 }
 
@@ -42,17 +43,18 @@ em {
  flex-direction: column;
  align-self: flex-end;
  border: 1px solid white;
- margin: 110px auto;
  padding: 5px;
  width: 50px;
  border-radius: 10px;
  background: #222;
+ position: relative;
+ left: 48px;
 }
 
 .waveforms {
   padding: 5px;
   position: relative;
-  left: 240px;
+  left: 20px;
   margin-top: 20px;
   margin-bottom: 20px;
   border: 1px solid white;

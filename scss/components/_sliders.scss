@@ -1,11 +1,10 @@
 .sliders {
   // max-width: 4%;
-  min-width: 850px;
+  min-width: 520px;
   // display: flex;
   // flex-direction: row;
   // flex-wrap: wrap;
-  margin: 5px;
-  margin-top: 20px;
+  margin: 20px;
   border: 2px solid white;
   border-radius: 20px;
   box-shadow: 0px 27px 15px -6px rgba(0, 0, 0, 0.4);
@@ -21,7 +20,8 @@
 	// margin-top: 35px;
 	padding: 1px;
   margin-right: 20px;
-	width: 35px;
+  margin-left: 10px;
+	width: 30px;
   height: 150px;
 	border-radius: 10px;
 	background: #222;

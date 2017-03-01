@@ -7,12 +7,12 @@
 
 %knob-tail {
   width: 15px;
-  height: 60px;
+  height: 40px;
   background: #eee;
   border-radius: 20px;
   position: absolute;
-  top: 50%;
-  left: 45%;
+  top: 49%;
+  left: 43%;
   // margin-left: -15px;
 }
 .res-tail {
@@ -25,7 +25,7 @@
 
 %slider-bar {
 	height: 0px;
-  width: 30px;
+  width: 25px;
 	border-radius: 5px;
   border: 1px solid #FF69B4;
 	background: repeating-linear-gradient(-45deg, rgba(255,255,255,.1), rgba(255,255,255,0) 12px), linear-gradient(#63D0FF, #45fe16);
