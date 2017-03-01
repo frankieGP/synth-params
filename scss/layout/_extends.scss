@@ -1,0 +1,32 @@
+%knob-ani {
+  -webkit-transform-origin: top center;
+  -webkit-transition: transform 2s;
+  -webkit-transition-timing-function: linear;
+}
+
+
+%knob-tail {
+  width: 15px;
+  height: 60px;
+  background: #eee;
+  border-radius: 20px;
+  position: absolute;
+  top: 50%;
+  left: 45%;
+  // margin-left: -15px;
+}
+.res-tail {
+  @extend %knob-tail;
+}
+
+%slider-ani {
+  -webkit-animation: slide-f-attack 4s forwards;
+}
+
+%slider-bar {
+	height: 0px;
+  width: 30px;
+	border-radius: 5px;
+  border: 1px solid #FF69B4;
+	background: repeating-linear-gradient(-45deg, rgba(255,255,255,.1), rgba(255,255,255,0) 12px), linear-gradient(#63D0FF, #45fe16);
+}

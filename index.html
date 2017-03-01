@@ -1,0 +1,207 @@
+<html>
+  <head>
+	  <title>SYNTHESIZER PATCH PARAMETERS</title>
+	  <link rel="stylesheet" href="css/raw.css">
+  </head>
+  <body>
+    <h1 id="header">Select a Sound</h1>
+    <div class="nav">
+      <h2>ANALOG BASS</h2>
+      <div class="sound" id="analog-bass">
+        <audio id="audio1" src="sounds/bass1.mp3"></audio>
+        <a class="play" onClick="analog-bass()">play</a>
+        <a class="stop">stop</a>
+      </div>
+      <h2>DIGITAL PAD</h2>
+      <div class="sound" id="digital-bass">
+        <audio id="audio2" src="sounds/pad.mp3"></audio>
+        <a class="play" onClick="digital-bass()">play</a>
+        <a class="stop">stop</a>
+      </div>
+    </div>
+
+    <div class="container">
+
+<div class="osc-filter-container">
+
+      <div class="knobs" id="osc">
+        <div class="info">
+          <h1 class="paramname">OSCILLATORS</h1>
+        </div>
+
+        <div class="parameter">
+          <h1>OSC 1</h1>
+          <div class="knob-wrap">
+            <div class="knob"></div>
+            <div class="osc1-tail"></div>
+          </div>
+          <div class="waveforms">
+            <div class="triangle"></div>
+            <div class="square"></div>
+            <div class="saw"></div>
+          </div>
+        </div>
+        <div class="parameter">
+          <h1>OSC 2</h1>
+          <div class="knob-wrap">
+            <div class="knob"></div>
+            <div class="osc2-tail"></div>
+          </div>
+          <div class="waveforms">
+            <div class="triangle"></div>
+            <div class="square"></div>
+            <div class="saw"></div>
+          </div>
+        </div>
+        <!-- <div class="what-do-osc">
+          <p><em>Oscillators</em> produce sound</p><p>which is then fed through</p><p>the rest of the signal path</p><p>in the synthesizer.</p><p>Oscillation itself is the production of</p><p>a certain type of waveform,</p><p>which produces a different sound.</p>
+        </div> -->
+      </div>
+
+
+      <div class="knobs" id="filter">
+        <div class="info">
+          <h1 class="paramname">FILTER</h1>
+          <!-- <div class="what-do-filter">
+            <p>A <em>Filter</em> passes signals with</p><p>a frequency lower than</p><p>the cutoff <em>frequency</em></p><p>and <em>resonates</em> signals with frequencies</p><p>higher than the cutoff frequency.</p>
+          </div> -->
+        </div>
+        <div class="parameter">
+          <div class="knob-wrap">
+            <div class="knob"></div>
+            <div class="freq-tail"></div>
+          </div>
+          <h1>FREQUENCY</h1>
+        </div>
+        <div class="parameter">
+          <div class="knob-wrap">
+            <div class="knob"></div>
+            <div class="res-tail"></div>
+          </div>
+          <h1>RESONANCE</h1>
+        </div>
+
+      </div>
+    </div>
+
+<div class="envelopes">
+
+      <div class="sliders amp-env">
+        <div class="info">
+          <h1 class="paramname">AMPILIFER ENVELOPE</h1>
+          <!-- <div class="what-do-amp">
+            <p>The amp envelope determines the output volume over time.</p>
+            <p><em>Attack</em> is the time taken for initial run-up of level from nil to peak</p>
+            <p><em>Decay</em> is the time taken for the subsequent run down from the attack level to the designated sustain level.</p>
+            <p><em>Sustain</em> is the level during the main sequence of the sound's duration, until the key is released.</p>
+            <p><em>Release</em> is the time taken for the level to decay from the sustain level to zero after the key is released.</p>
+          </div> -->
+        </div>
+        <div class="stacks">
+          <h1>ATTACK</h1>
+          <div class="slider-wrap">
+            <div class="slider-AA"></div>
+          </div>
+          <h1>DECAY</h1>
+          <div class="slider-wrap">
+            <div class="slider-AD"></div>
+          </div>
+          <h1>SUSTAIN</h1>
+          <div class="slider-wrap">
+            <div class="slider-AS"></div>
+          </div>
+          <h1>RELEASE</h1>
+          <div class="slider-wrap">
+            <div class="slider-AR"></div>
+          </div>
+        <!-- <div class="parameter"> -->
+            <!-- <h1>ATTACK</h1> -->
+
+
+
+        <!-- <div class="parameter"> -->
+
+          <!-- <h1>DECAY</h1> -->
+        <!-- </div> -->
+        <!-- <div class="parameter"> -->
+
+          <!-- <h1>SUSTAIN</h1> -->
+        <!-- </div> -->
+        <!-- <div class="parameter"> -->
+
+          <!-- <h1>RELEASE</h1> -->
+        <!-- </div> -->
+      <!-- </div> -->
+
+      </div>
+      </div>
+
+      <div class="sliders filter-env">
+        <div class="info">
+          <h1 class="paramname">FILTER ENVELOPE</h1>
+          <!-- <div class="what-do-filter">
+            <p>The filter envelope determines the output volume over time.</p>
+            <p><em>Attack</em> is the time taken for initial run-up of level from nil to peak</p>
+            <p><em>Decay</em> is the time taken for the subsequent run down from the attack level to the designated sustain level.</p>
+            <p><em>Sustain</em> is the level during the main sequence of the sound's duration, until the key is released.</p>
+            <p><em>Release</em> is the time taken for the level to decay from the sustain level to zero after the key is released.</p>
+          </div> -->
+        </div>
+        <div class="stacks">
+          <h1>ATTACK</h1>
+	        <div class="slider-wrap">
+		        <div class="slider-FA"></div>
+          </div>
+          <h1>DECAY</h1>
+	        <div class="slider-wrap">
+		        <div class="slider-FD"></div>
+          </div>
+          <h1>SUSTAIN</h1>
+	        <div class="slider-wrap">
+		        <div class="slider-FS"></div>
+          </div>
+          <h1>RELEASE</h1>
+	        <div class="slider-wrap">
+		        <div class="slider-FR"></div>
+          </div>
+      </div>
+    </div>
+  </div>
+
+
+      <div class="knobs" id="lfo">
+        <div class="info">
+          <h1 class="paramname">LFO</h1>
+          <!-- <div class="what-do-lfo">
+            <p>Low Frequency Oscillation</p><p>is a rhythmic  pulse</p><p>used to modulate synthesizers.</p>
+          </div> -->
+      </div>
+        <div class"shape">
+            <div class="lfo-waveforms">
+              <div class="triangle"></div>
+              <div class="square"></div>
+              <div class="saw"></div>
+            </div>
+          <h1>SHAPE</h1>
+        </div>
+        <div class="parameter">
+          <div class="knob-wrap">
+            <div class="knob"></div>
+            <div class="amount-tail"></div>
+          </div>
+          <h1>AMOUNT</h1>
+        </div>
+        <div class="parameter">
+          <div class="knob-wrap">
+            <div class="knob"></div>
+            <div class="rate-tail"></div>
+          </div>
+          <h1>RATE</h1>
+        </div>
+      </div>
+
+    </div>
+    <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="js/scripts.js"></script>
+  </body>
+</html>

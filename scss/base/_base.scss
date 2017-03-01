@@ -1,0 +1,88 @@
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  color: white;
+	background: #303030;
+	font: 1.1em sans-serif;
+}
+// .stacks {
+//   display: flex;
+//   flex-direction: row;
+//   justify-content: center;
+// }
+h1 {
+  text-align: center;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+h2 {
+  padding-left: 50px;
+  margin-bottom: 150px;
+  text-align: center;
+}
+
+em {
+  color: #FF69B4;
+}
+
+.paramname {
+  margin: 30px;
+  letter-spacing: 0.1em;
+}
+
+.lfo-waveforms {
+ display: flex;
+ flex-direction: column;
+ align-self: flex-end;
+ border: 1px solid white;
+ margin: 110px auto;
+ padding: 5px;
+ width: 50px;
+ border-radius: 10px;
+ background: #222;
+}
+
+.waveforms {
+  padding: 5px;
+  position: relative;
+  left: 240px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 1px solid white;
+	background: #222;
+	width: 115px;
+	border-radius: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.square {
+  margin: 5px;
+  height: 25px;
+  width: 25px;
+  background-color: #45fe16;
+}
+
+.saw {
+  margin: 5px;
+	width: 0;
+	height: 0;
+	border-bottom: 25px solid #63D0FF;
+	border-left: 25px solid transparent;
+}
+
+.triangle {
+  margin: 5px;
+	width: 0;
+	height: 0;
+	border-left: 12.5px solid transparent;
+	border-right: 12.5px solid transparent;
+	border-bottom: 25px solid #FF69B4;
+}

@@ -1,0 +1,124 @@
+
+////////////////////////  AMP ENVELOPE SLIDERS  /////////////////////////////////
+
+.a-attack-bass {
+  -webkit-animation: a-attack-bass 4s forwards;
+}
+@-webkit-keyframes a-attack-bass {
+  0% {height: 0%;}
+  100% {height: 30%;}
+}
+.a-decay-bass {
+  -webkit-animation: a-decay-bass 4s forwards;
+}
+@-webkit-keyframes a-decay-bass {
+  0% {height: 0%;}
+  100% {height: 25%;}
+}
+.a-sustain-bass {
+  -webkit-animation: a-sustain-bass 4s forwards;
+}
+@-webkit-keyframes a-sustain-bass {
+  0% {height: 0%;}
+  100% {height: 80%;}
+}
+.a-release-bass {
+  -webkit-animation: a-release-bass 4s forwards;
+}
+@-webkit-keyframes a-release-bass {
+  0% {height: 0%;}
+  100% {height: 10%;}
+}
+
+
+////////////////////////  FILTER ENVELOPE SLIDERS  /////////////////////////////////
+.f-attack-bass {
+  -webkit-animation: f-attack-bass 4s forwards;
+}
+@-webkit-keyframes f-attack-bass {
+  0% {height: 0%;}
+  100% {height: 60%;}
+}
+.f-decay-bass {
+  -webkit-animation: f-decay-bass 4s forwards;
+}
+@-webkit-keyframes f-decay-bass {
+  0% {height: 0%;}
+  100% {height: 45%;}
+}
+.f-sustain-bass {
+  -webkit-animation: f-sustain-bass 4s forwards;
+}
+@-webkit-keyframes f-sustain-bass {
+  0% {height: 0%;}
+  100% {height: 50%;}
+}
+.f-release-bass {
+  -webkit-animation: f-release-bass 4s forwards;
+}
+@-webkit-keyframes f-release-bass {
+  0% {height: 0%;}
+  100% {height: 19%;}
+}
+
+/////////DIGITAL/////
+
+.a-attack-digital {
+  -webkit-animation: a-attack-digital 4s forwards;
+}
+@-webkit-keyframes a-attack-digital {
+  0% {height: 0%;}
+  100% {height: 20%;}
+}
+.a-decay-digital {
+  -webkit-animation: a-decay-digital 4s forwards;
+}
+@-webkit-keyframes a-decay-digital {
+  0% {height: 0%;}
+  100% {height: 35%;}
+}
+.a-sustain-digital {
+  -webkit-animation: a-sustain-digital 4s forwards;
+}
+@-webkit-keyframes a-sustain-digital {
+  0% {height: 0%;}
+  100% {height: 59%;}
+}
+.a-release-digital {
+  -webkit-animation: a-release-digital 4s forwards;
+}
+@-webkit-keyframes a-release-digital {
+  0% {height: 0%;}
+  100% {height: 80%;}
+}
+
+
+////////////////////////  FILTER ENVELOPE SLIDERS  /////////////////////////////////
+.f-attack-digital {
+  -webkit-animation: f-attack-digital 4s forwards;
+}
+@-webkit-keyframes f-attack-digital {
+  0% {height: 0%;}
+  100% {height: 90%;}
+}
+.f-decay-digital {
+  -webkit-animation: f-decay-digital 4s forwards;
+}
+@-webkit-keyframes f-decay-digital {
+  0% {height: 0%;}
+  100% {height: 35%;}
+}
+.f-sustain-digital {
+  -webkit-animation: f-sustain-digital 4s forwards;
+}
+@-webkit-keyframes f-sustain-digital {
+  0% {height: 0%;}
+  100% {height: 20%;}
+}
+.f-release-digital {
+  -webkit-animation: f-release-digital 4s forwards;
+}
+@-webkit-keyframes f-release-digital {
+  0% {height: 0%;}
+  100% {height: 79%;}
+}

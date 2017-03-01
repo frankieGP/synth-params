@@ -1,0 +1,94 @@
+
+////////////////////////  OSCILLATOR KNOBS  /////////////////////////////////
+
+
+.osc1-bass {
+  -webkit-transform: rotate(99deg);
+  @extend %knob-ani;
+}
+.osc1-digital {
+  -webkit-transform: rotate(299deg);
+  @extend %knob-ani;
+}
+
+
+
+.osc2-bass {
+    -webkit-transform: rotate(199deg);
+    @extend %knob-ani;
+}
+.osc2-digital {
+  -webkit-transform: rotate(59deg);
+  @extend %knob-ani;
+}
+
+////////////////////////  FILTER KNOBS  /////////////////////////////////
+
+
+.freq-bass {
+  -webkit-transform: rotate(90deg);
+  @extend %knob-ani;
+}
+.freq-digital {
+  -webkit-transform: rotate(230deg);
+  @extend %knob-ani;
+}
+
+
+.res-tail {
+  @extend %knob-tail;
+}
+.res-bass {
+  -webkit-transform: rotate(150deg);
+  @extend %knob-ani;
+}
+.res-digital {
+  -webkit-transform: rotate(100deg);
+  @extend %knob-ani;
+}
+
+
+
+
+
+
+
+////////////////////////  LFO KNOBS  /////////////////////////////////
+
+
+.amount-bass {
+  -webkit-transform: rotate(160deg);
+  @extend %knob-ani;
+}
+.amount-digital {
+  -webkit-transform: rotate(50deg);
+  @extend %knob-ani;
+}
+
+
+
+.rate-bass {
+  -webkit-transform: rotate(10deg);
+  @extend %knob-ani;
+}
+.rate-digital {
+  -webkit-transform: rotate(275deg);
+  @extend %knob-ani;
+}
+
+
+
+
+
+
+
+
+
+
+// .knob::after, .knob::before {
+//   content: "";
+//   display: block;
+//   width: 2px;
+//   height: 2px;
+//   border-radius: 50%;
+// }
